@@ -45,7 +45,7 @@ def simple_page():
 @app.route('/launch', methods=['POST'])
 def launch():
     global process
-    exe_path = r'C:\xampp\htdocs\Exploid\Exploid\Exploid.exe'  # Corrected file path
+    exe_path = r'Exploid.exe'  # Corrected file path
 
     # Start the .exe file if not already running
     if not process:
